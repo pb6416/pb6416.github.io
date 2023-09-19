@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-image: url(../bridge.jpg);
+    background-size:cover;
+    font-size: 1em;
+    color:#fb6f92;
+    letter-spacing: 3px;
+}
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img {
+    border-radius: 25%;
+    border: .5em solid #fce9e9;
+  }
+
+h1 {
+    font-size: 2em;
+    color: #fb6f92;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+a:link {
+    color: azure;
+    font-size: 1em; 
+}
+
+a:visited {
+    color: hotpink;
+    font-size: 1em;
+}
+
+a:hover {
+    color: red;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid #ffc3d2;
+    width: 80%;
+    table-layout: fixed;
+    background-color: azure;
+    
+}
+
+th, td {
+    padding-top: .9em;
+    padding-bottom: .9em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+th {background-color: #ffffff;}
+
+tr:nth-child(even) {
+    background-color: #f9d1d1;
+  }
+
+.header {
+    background: rgb(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-top:42em;
+    ;
+}
+
+.divRight {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    width: 67%;
+    padding: 0;
+    margin: 0;
+    height:auto;
+    float: left;
+}
+
+.divLeft {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 14px;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    height:auto;
+    float: left;
+}
+
